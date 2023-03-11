@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BandanaY - Style Meets Durability</title>
+    <link rel="shortcut icon" href="img/bandanaY-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/main-style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        img.bandana {
+            display: inline-block;
+            width: 300px;
+        }
+
+        div.bandanabox {
+            border: 1px solid black;
+            display: inline-block;
+            width: 401px;
+            text-align: center;
+        }
+
+        div.bandanabox:hover {
+            border: 1px solid black;
+            background-color: #fbe185;
+            transition: 0.5s;
+        }
+
+        h1.content-header {
+            margin-top: 50px;
+            display: block;
+            text-align: center;
+            height: 100px;
+        }
+
+        h1.content-header:hover {
+            font-size: 50px;
+            transition: 0.5s;
+        }
+
+        span.bandana-name {
+            display: block;
+            font-size: 20px;
+            margin-bottom: 10px;
+            height: 50px;
+        }
+
+        div.bandanabox:hover span.bandana-name {
+            font-size: 24px;
+            transition: 0.5s;
+        }
+
+        button.buy {
+            background-color: #fbe185;
+            width: 80%;
+        }
+
+        div.bandanabox:hover button.buy {
+            background-color: gainsboro;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid" style="background-color: black; align-content: baseline; display: flex; height: 90px;">
+        <img src="img/bandanaY-logo.png" alt="logo" height="inherit">
+        <h3 class="bandanaY-text">BandanaY</h2>
+            <ul class="top-menu">
+                <li>
+                    <a href="index.html">
+                        <div>Home Page</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="sales.html">
+                        <div class="current-page">Shopping</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="registeration.html">
+                        <div>Sign up today!</div>
+                    </a>
+                </li>
+            </ul>
+    </div>
+
+    <!-- Main -->
+    <div class="box">
+        <h1 class="content-header">
+            All Bandanas
+        </h1>
+
+        <!-- A bandana row 1x3 columns -->
+        <div style="display: flex; justify-content: center;">
+
+            <div class="bandanabox">
+                <img src="img/bandanas/adanuil-bandana.png" alt="adanuil-bandana" class="bandana">
+                <span class="bandana-name">Adanuil</span>
+                <div style="font-size: 18px; margin-bottom: 20px;">
+                    <span style="display: block; padding-right: 10px;"> $10 </span>
+                    <button class="buy" type="button">Add to cart!</button>
+                </div>
+            </div>
+
+            <div class="bandanabox">
+                <img src="img/bandanas/aegion-bandana.png" alt="aegion-bandana" class="bandana">
+                <span class="bandana-name">Aegion</span>
+                <div style="font-size: 18px; margin-bottom: 20px;">
+                    <span style="display: block; padding-right: 10px;"><span
+                            style="text-decoration-line: line-through;">$10</span> ->
+                        $5</span>
+                    <button class="buy" type="button">Add to cart!</button>
+                </div>
+            </div>
+
+            <div class="bandanabox">
+                <img src="img/bandanas/aegrod-bandana.png" alt="aegrod-bandana" class="bandana">
+                <span class="bandana-name">Aegrod</span>
+                <div style="font-size: 18px; margin-bottom: 20px;">
+                    <span style="display: block; padding-right: 10px;">
+                        <span style="text-decoration-line: line-through;">$10</span> ->
+                        $5</span>
+                    <button class="buy" type="button">Add to cart!</button>
+                </div>
+            </div>
+
+        </div>
+        <!-- End of the row -->
+        <div style="display: flex; justify-content: center;">
+
+            <div class="bandanabox">
+                <img src="img/bandanas/norelle-bandana.png" alt="norelle-bandana" class="bandana">
+                <span class="bandana-name">Norelle</span>
+                <div style="font-size: 18px; margin-bottom: 20px;">
+                    <span style="display: block; padding-right: 10px;"> $10 </span>
+                    <button class="buy" type="button">Add to cart!</button>
+                </div>
+            </div>
+
+            <div class="bandanabox">
+                <img src="img/bandanas/sylis-bandana.png" alt="sylis-bandana" class="bandana">
+                <span class="bandana-name">Sylis</span>
+                <div style="font-size: 18px; margin-bottom: 20px;">
+                    <span style="display: block; padding-right: 10px;"><span
+                            style="text-decoration-line: line-through;">$10</span> ->
+                        $5</span>
+                    <button class="buy" type="button">Add to cart!</button>
+                </div>
+            </div>
+
+            <div class="bandanabox">
+                <img src="img/bandanas/veralis-bandana.png" alt="veralis-bandana" class="bandana">
+                <span class="bandana-name">Veralis</span>
+                <div style="font-size: 18px; margin-bottom: 20px;">
+                    <span style="display: block; padding-right: 10px;"> $10 </span>
+                    <button class="buy" type="button">Add to cart!</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Bottom navbar -->
+    <div class="bottomnavbar">
+        <img src="img/bandanaY-favicon.png" alt="favicon" height="25px">
+        <span class="content-text" style="margin-left: 5px;">Yunus Ege Küçük</span>
+    </div>
+</body>
+
+</html>
