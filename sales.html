@@ -5,66 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BandanaY - Style Meets Durability</title>
+    <title>BandanaY - Shopping</title>
     <link rel="shortcut icon" href="img/bandanaY-favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/main-style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <style>
-        img.bandana {
-            display: inline-block;
-            width: 300px;
-        }
-
-        div.bandanabox {
-            border: 1px solid black;
-            display: inline-block;
-            width: 401px;
-            text-align: center;
-        }
-
-        div.bandanabox:hover {
-            border: 1px solid black;
-            background-color: #fbe185;
-            transition: 0.5s;
-        }
-
-        h1.content-header {
-            margin-top: 50px;
-            display: block;
-            text-align: center;
-            height: 100px;
-        }
-
-        h1.content-header:hover {
-            font-size: 50px;
-            transition: 0.5s;
-        }
-
-        span.bandana-name {
-            display: block;
-            font-size: 20px;
-            margin-bottom: 10px;
-            height: 50px;
-        }
-
-        div.bandanabox:hover span.bandana-name {
-            font-size: 24px;
-            transition: 0.5s;
-        }
-
-        button.buy {
-            background-color: #fbe185;
-            width: 80%;
-        }
-
-        div.bandanabox:hover button.buy {
-            background-color: gainsboro;
-        }
-    </style>
+    <link rel="stylesheet" href="css/sales.css">
 </head>
 
 <body>
-    <div class="container-fluid" style="background-color: black; align-content: baseline; display: flex; height: 90px;">
+    <div class="container-fluid" style="background-color: black; display: flex; height: 90px;">
         <img src="img/bandanaY-logo.png" alt="logo" height="inherit">
         <h3 class="bandanaY-text">BandanaY</h2>
             <ul class="top-menu">
@@ -79,11 +28,20 @@
                     </a>
                 </li>
                 <li>
-                    <a href="registeration.html">
-                        <div>Sign up today!</div>
+                    <a href="#">
+                        <div>About</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html">
+                        <div>Contact Us!</div>
                     </a>
                 </li>
             </ul>
+            <div id="loginbox">
+                <span><a href="registeration.html">Log in</a><span><br>
+                <span style="font-size: 10px;">and start enjoying the benefits<span>
+            </div>
     </div>
 
     <!-- Main -->
@@ -93,8 +51,7 @@
         </h1>
 
         <!-- A bandana row 1x3 columns -->
-        <div style="display: flex; justify-content: center;">
-
+        <div class="bandanarow3">
             <div class="bandanabox">
                 <img src="img/bandanas/adanuil-bandana.png" alt="adanuil-bandana" class="bandana">
                 <span class="bandana-name">Adanuil</span>
@@ -125,11 +82,9 @@
                     <button class="buy" type="button">Add to cart!</button>
                 </div>
             </div>
-
         </div>
         <!-- End of the row -->
-        <div style="display: flex; justify-content: center;">
-
+        <div class="bandanarow3"">
             <div class="bandanabox">
                 <img src="img/bandanas/norelle-bandana.png" alt="norelle-bandana" class="bandana">
                 <span class="bandana-name">Norelle</span>
@@ -158,9 +113,7 @@
                     <button class="buy" type="button">Add to cart!</button>
                 </div>
             </div>
-
         </div>
-
     </div>
 
     <!-- Bottom navbar -->

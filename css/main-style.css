@@ -68,6 +68,25 @@ ul.top-menu>li>a:hover {
     transition: 0.3s;
 }
 
+#loginbox {
+    margin-left: 200px;
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#loginbox a {
+    color: white;
+    text-decoration: none;
+}
+
+#loginbox a:hover {
+    color: #fbe185;
+    transition: 0.3s;
+}
+
 /* Content */
 
 div.box {

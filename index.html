@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="img/bandanaY-favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/main-style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/sales.css">
     <style>
         div.box {
             display: block;
@@ -33,31 +34,41 @@
             margin-bottom: 0px;
             margin-left: 5rem;
             margin-right: 5rem;
+            text-align: justify;
         }
     </style>
 </head>
 
 <body>
-    <div class="container-fluid" style="background-color: black; align-content: baseline; display: flex; height: 90px;">
+    <div class="container-fluid" style="background-color: black; display: flex; height: 90px;">
         <img src="img/bandanaY-logo.png" alt="logo" height="inherit">
-        <h3 class="bandanaY-text">BandanaY</h2>
-            <ul class="top-menu">
-                <li>
-                    <a href="index.html">
-                        <div class="current-page">Home Page</div>
-                    </a>
-                </li>
-                <li>
-                    <a href="sales.html">
-                        <div>Shopping</div>
-                    </a>
-                </li>
-                <li>
-                    <a href="registeration.html">
-                        <div>Sign up today!</div>
-                    </a>
-                </li>
-            </ul>
+        <h3 class="bandanaY-text">BandanaY</h3>
+        <ul class="top-menu">
+            <li>
+                <a href="index.html">
+                    <div class="current-page">Home Page</div>
+                </a>
+            </li>
+            <li>
+                <a href="sales.html">
+                    <div>Shopping</div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div>About</div>
+                </a>
+            </li>
+            <li>
+                <a href="contact.html">
+                    <div>Contact Us!</div>
+                </a>
+            </li>
+        </ul>
+        <div id="loginbox">
+            <span><a href="registeration.html">Log in</a><span><br>
+                    <span style="font-size: 10px;">and start enjoying the benefits<span>
+        </div>
     </div>
 
     <!-- Main -->
@@ -67,7 +78,7 @@
                 Style Meets Durability
             </h1>
             <!-- <img src="img/bandanaY-favicon.png" width="30px" alt=""> -->
-            <p style="display: block; font-weight: bold; margin: 0px;">BandanaY</p>
+            <p style="text-align: center; display: block; font-weight: bold; margin: 0px;">BandanaY</p>
             <img src="img/bandanaY-favicon.png" width="30px" alt="bandanaY-favicon">
         </div>
         <div class="flex" style="margin-bottom: 20px;">
@@ -75,10 +86,7 @@
             <span style="font-size: 20px; font-weight: bolder;">Rock your style with BandanaY.</span>
         </div>
 
-        <p>Welcome to BandanaY, the ultimate destination for high-quality bandanas that make a statement! Our brand
-            is
-            dedicated to creating stylish and durable bandanas that showcase your unique personality and style.
-            <br> At BandanaY, we understand that a bandana is more than just an accessory – it's a symbol of
+        <p>At BandanaY, we understand that a bandana is more than just an accessory – it's a symbol of
             individuality,
             creativity, and self-expression. That's why we offer a wide range of designs and colors to suit any
             taste or
@@ -88,24 +96,57 @@
             We take pride in our commitment to using only the highest quality materials and construction techniques
             in
             every bandana we make. Our bandanas are made from soft, breathable cotton that's gentle on your skin and
-            comfortable to wear all day long. Plus, they're machine washable for easy care and maintenance. <br>
-            But don't just take our word for it – try out our bandanas for yourself and see the difference! We ship
-            to
-            customers all over the world, so you can enjoy the unique style and comfort of BandanaY no matter where
-            you
-            are. <br> <br>
-            Thank you for choosing BandanaY – we can't wait to see how you rock your bandana!
+            comfortable to wear all day long. They're machine washable for easy care and maintenance. <br>
         </p>
+
+        <!-- Discounted Items -->
+        <!-- A bandana row 1x3 columns -->
+        <h1 style="text-align: center;"><br>Save 50% on these!</h1>
+        <div class="bandanarow3">
+            <div class="bandanabox">
+                <img src="img/bandanas/aegion-bandana.png" alt="aegion-bandana" class="bandana">
+                <span class="bandana-name">Aegion</span>
+                <div style="font-size: 18px; margin-bottom: 20px;">
+                    <span style="display: block; padding-right: 10px;"><span
+                            style="text-decoration-line: line-through;">$10</span> ->
+                        $5</span>
+                    <button class="buy" type="button">Add to cart!</button>
+                </div>
+            </div>
+
+            <div class="bandanabox">
+                <img src="img/bandanas/aegrod-bandana.png" alt="aegrod-bandana" class="bandana">
+                <span class="bandana-name">Aegrod</span>
+                <div style="font-size: 18px; margin-bottom: 20px;">
+                    <span style="display: block; padding-right: 10px;">
+                        <span style="text-decoration-line: line-through;">$10</span> ->
+                        $5</span>
+                    <button class="buy" type="button">Add to cart!</button>
+                </div>
+            </div>
+            <div class="bandanabox">
+                <img src="img/bandanas/sylis-bandana.png" alt="sylis-bandana" class="bandana">
+                <span class="bandana-name">Sylis</span>
+                <div style="font-size: 18px; margin-bottom: 20px;">
+                    <span style="display: block; padding-right: 10px;"><span
+                            style="text-decoration-line: line-through;">$10</span> ->
+                        $5</span>
+                    <button class="buy" type="button">Add to cart!</button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Little Text -->
         <div>
             <p style="font-size: 14px;">
                 <br>
                 <br>
-                <br>
                 We have great news for all of our customers! At BandanaY, we offer free shipping on all orders over
-                $50. That's right – if your basket total reaches $50 or more, you won't have to pay a dime for
+                $15. That's right – if your basket total reaches $15 or more, you won't have to pay a dime for
                 shipping. It's just one way we like to show our appreciation for your business and make it easy for
                 you to get the bandanas you love. So why wait? Start shopping today and take advantage of our free
-                shipping offer on orders over $50.
+                shipping offer on orders over $15.
             </p>
         </div>
     </div>

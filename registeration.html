@@ -5,22 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BandanaY - Style Meets Durability</title>
+    <title>BandanaY - Registeration</title>
     <link rel="shortcut icon" href="img/bandanaY-favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/main-style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/text-style.css">
+    <script src="js/registeration.js"></script>
     <style>
         th,td {
             padding: 5px;
             padding-bottom: 2px;
-        }
-
-        h1 {
-            margin: 25px;
-        }
-
-        p {
-            margin-left: 25px;
         }
 
         table.signup td {
@@ -42,11 +36,15 @@
             background-color: black;
             color: #fbe185;
         }
+
+        #loginbox a {
+            color:#fbe185;
+        }
     </style>
 </head>
 
 <body>
-    <div class="container-fluid" style="background-color: black; align-content: baseline; display: flex; height: 90px;">
+    <div class="container-fluid" style="background-color: black; display: flex; height: 90px;">
         <img src="img/bandanaY-logo.png" alt="logo" height="inherit">
         <h3 class="bandanaY-text">BandanaY</h2>
             <ul class="top-menu">
@@ -61,15 +59,24 @@
                     </a>
                 </li>
                 <li>
-                    <a href="registeration.html">
-                        <div class="current-page">Sign up today!</div>
+                    <a href="#">
+                        <div>About</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html">
+                        <div>Contact Us!</div>
                     </a>
                 </li>
             </ul>
+            <div id="loginbox">
+                <span><a href="registeration.html">Log in</a><span><br>
+                <span style="font-size: 10px;">and start enjoying the benefits<span>
+            </div>
     </div>
 
     <!-- Main -->
-    <div class="box" style="padding-bottom: 98px;">
+    <div class="box" style="padding-bottom: 130px;">
         <!-- Code here! -->
         <h1>Registeration</h1>
         <p>At BandanaY, we value our customers and strive to provide the best possible shopping experience. That's why
@@ -89,22 +96,23 @@
             <tbody>
                 <tr>
                     <td>Name: </td>
-                    <td><input type="text" name="ad" id=""></td>
+                    <td><input type="text" name="ad" id="ad"></td>
                 </tr>
                 <tr>
                     <td>Surname: </td>
-                    <td><input type="text" name="soyad" id=""></td>
+                    <td><input type="text" name="soyad" id="soyad"></td>
                 </tr>
                 <tr>
                     <td>E-Mail: </td>
-                    <td><input type="email" name="email" id=""></td>
+                    <td><input type="email" name="email" id="email"></td>
                 </tr>
                 <tr>
-                    <td>Phone-Number: </td>
-                    <td><input type="tel" name="number" id=""></td>
+                    <td>Phone Number: </td>
+                    <td><input type="tel" name="number" id="number"></td>
                 </tr>
                 <tr>
-                    <td colspan="2"><input type="submit" value="Sign up!" class="signupbt""></td>
+                    <td><input type="submit" value="Sign up!" class="signupbt" onclick="registerationButton()"><br></td>
+                    <td style="color:red;"><span id="regInfo"></span> <span id="regInfo2"></span></td>
                 </tr>
             </tbody>
         </table>

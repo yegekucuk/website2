@@ -1,0 +1,57 @@
+img.bandana {
+    display: inline-block;
+    width: 300px;
+}
+
+div.bandanabox {
+    border: 1px solid black;
+    display: inline-block;
+    width: 359px;
+    text-align: center;
+}
+
+div.bandanabox:hover {
+    border: 1px solid black;
+    background-color: #fbe185;
+    transition: 0.5s;
+}
+
+h1.content-header {
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+    height: 100px;
+}
+
+h1.content-header:hover {
+    font-size: 50px;
+    transition: 0.5s;
+}
+
+span.bandana-name {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    height: 50px;
+}
+
+div.bandanabox:hover span.bandana-name {
+    font-size: 24px;
+    transition: 0.5s;
+}
+
+button.buy {
+    background-color: #fbe185;
+    width: 80%;
+    border-radius: 20px;
+}
+
+div.bandanabox:hover button.buy {
+    background-color: gainsboro;
+    transition: 0.5s;
+}
+
+div.bandanarow3 {
+    display: flex;
+    justify-content: center;
+}
